@@ -1,0 +1,290 @@
+{
+  "alba-berlin": {
+    "url_name": "alba-berlin",
+    "name": "ALBA Berlin",
+    "founded": 1989,
+    "city": "Berlin, Germany",
+    "arena": {
+      "name": "Uber Arena",
+      "capacity": 14500
+    },
+    "description": "Founded in 1989 as BG Charlottenburg, the club changed its name to ALBA two years later and soon started its journey to becoming a top-class basketball organization. By raising the 1995 Korac Cup behind Sasa Obradovic, Teo Alibegovic and Coach Svetislav Pesic, ALBA became the first German team to win a European trophy. What followed was dominance on the home front as Berlin reeled off seven consecutive German League titles. Those triumphs also earned ALBA a regular spot in the EuroLeague. In 2004, ALBA began a run of four straight seasons in the ULEB Cup, and the club won the German Cup in 2006, before also taking the 2008 German League championship. In the 2008-09 EuroLeague, ALBA advanced to the Top 16 for the first time before reaching the 2010 EuroCup Final, losing to Valencia. Former star player Sasa Obradovic took over as head coach in 2012 and guided ALBA to German Cup triumphs in 2013, 2014. The appointment of legendary coach Aito Garcia Reneses in 2017 sparked another chapter in the club’s growth, as ALBA reached the 2019 EuroCup Finals but again fell against Valencia. The club then celebrated its return to the EuroLeague with a German League three-peat in 2020, 2021 and 2022, as long-time assistant Israel Gonzalez took head coach duties that ensured continuity into the upcoming seasons.",
+    "images": {
+      "logo": "/images/teams/alba-berlin/logo/logo.png",
+      "stadium_interior": "/images/teams/alba-berlin/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/alba-berlin/stadium_exterior/exterior.jpg"
+    }
+  },
+  "anadolu-efes-istanbul": {
+    "url_name": "anadolu-efes-istanbul",
+    "name": "Anadolu Efes Istanbul",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/anadolu-efes-istanbul/logo/logo.png",
+      "stadium_interior": "/images/teams/anadolu-efes-istanbul/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/anadolu-efes-istanbul/stadium_exterior/exterior.jpg"
+    }
+  },
+  "as-monaco": {
+    "url_name": "as-monaco",
+    "name": "AS Monaco",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/as-monaco/logo/logo.png",
+      "stadium_interior": "/images/teams/as-monaco/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/as-monaco/stadium_exterior/exterior.jpg"
+    }
+  },
+  "baskonia": {
+    "url_name": "baskonia",
+    "name": "Baskonia",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/baskonia/logo/logo.png",
+      "stadium_interior": "/images/teams/baskonia/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/baskonia/stadium_exterior/exterior.jpg"
+    }
+  },
+  "crvena-zvezda-mts-belgrade": {
+    "url_name": "crvena-zvezda-mts-belgrade",
+    "name": "Crvena Zvezda mts Belgrade",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/crvena-zvezda-mts-belgrade/logo/logo.png",
+      "stadium_interior": "/images/teams/crvena-zvezda-mts-belgrade/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/crvena-zvezda-mts-belgrade/stadium_exterior/exterior.jpg"
+    }
+  },
+  "ea7-emporio-armani-milan": {
+    "url_name": "ea7-emporio-armani-milan",
+    "name": "EA7 Emporio Armani Milan",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/ea7-emporio-armani-milan/logo/logo.png",
+      "stadium_interior": "/images/teams/ea7-emporio-armani-milan/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/ea7-emporio-armani-milan/stadium_exterior/exterior.jpg"
+    }
+  },
+  "fc-barcelona": {
+    "url_name": "fc-barcelona",
+    "name": "FC Barcelona",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/fc-barcelona/logo/logo.png",
+      "stadium_interior": "/images/teams/fc-barcelona/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/fc-barcelona/stadium_exterior/exterior.jpg"
+    }
+  },
+  "fc-bayern-munich": {
+    "url_name": "fc-bayern-munich",
+    "name": "FC Bayern Munich",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/fc-bayern-munich/logo/logo.png",
+      "stadium_interior": "/images/teams/fc-bayern-munich/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/fc-bayern-munich/stadium_exterior/exterior.jpg"
+    }
+  },
+  "fenerbahce-beko-istanbul": {
+    "url_name": "fenerbahce-beko-istanbul",
+    "name": "Fenerbahce Beko Istanbul",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/fenerbahce-beko-istanbul/logo/logo.png",
+      "stadium_interior": "/images/teams/fenerbahce-beko-istanbul/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/fenerbahce-beko-istanbul/stadium_exterior/exterior.jpg"
+    }
+  },
+  "ldlc-asvel-villeurbanne": {
+    "url_name": "ldlc-asvel-villeurbanne",
+    "name": "LDLC ASVEL Villeurbanne",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/ldlc-asvel-villeurbanne/logo/logo.png",
+      "stadium_interior": "/images/teams/ldlc-asvel-villeurbanne/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/ldlc-asvel-villeurbanne/stadium_exterior/exterior.jpg"
+    }
+  },
+  "maccabi-playtika-tel-aviv": {
+    "url_name": "maccabi-playtika-tel-aviv",
+    "name": "Maccabi Playtika Tel Aviv",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/maccabi-playtika-tel-aviv/logo/logo.png",
+      "stadium_interior": "/images/teams/maccabi-playtika-tel-aviv/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/maccabi-playtika-tel-aviv/stadium_exterior/exterior.jpg"
+    }
+  },
+  "olympiacos-piraeus": {
+    "url_name": "olympiacos-piraeus",
+    "name": "Olympiacos Piraeus",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/olympiacos-piraeus/logo/logo.png",
+      "stadium_interior": "/images/teams/olympiacos-piraeus/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/olympiacos-piraeus/stadium_exterior/exterior.jpg"
+    }
+  },
+  "panathinaikos-athens": {
+    "url_name": "panathinaikos-athens",
+    "name": "Panathinaikos Athens",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/panathinaikos-athens/logo/logo.png",
+      "stadium_interior": "/images/teams/panathinaikos-athens/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/panathinaikos-athens/stadium_exterior/exterior.jpg"
+    }
+  },
+  "partizan-mozzart-bet-belgrade": {
+    "url_name": "partizan-mozzart-bet-belgrade",
+    "name": "Partizan Mozzart Bet Belgrade",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/partizan-mozzart-bet-belgrade/logo/logo.png",
+      "stadium_interior": "/images/teams/partizan-mozzart-bet-belgrade/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/partizan-mozzart-bet-belgrade/stadium_exterior/exterior.jpg"
+    }
+  },
+  "real-madrid": {
+    "url_name": "real-madrid",
+    "name": "Real Madrid",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/real-madrid/logo/logo.png",
+      "stadium_interior": "/images/teams/real-madrid/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/real-madrid/stadium_exterior/exterior.jpg"
+    }
+  },
+  "valencia-basket": {
+    "url_name": "valencia-basket",
+    "name": "Valencia Basket",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/valencia-basket/logo/logo.png",
+      "stadium_interior": "/images/teams/valencia-basket/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/valencia-basket/stadium_exterior/exterior.jpg"
+    }
+  },
+  "virtus-segafredo-bologna": {
+    "url_name": "virtus-segafredo-bologna",
+    "name": "Virtus Segafredo Bologna",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/virtus-segafredo-bologna/logo/logo.png",
+      "stadium_interior": "/images/teams/virtus-segafredo-bologna/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/virtus-segafredo-bologna/stadium_exterior/exterior.jpg"
+    }
+  },
+  "zalgiris-kaunas": {
+    "url_name": "zalgiris-kaunas",
+    "name": "Zalgiris Kaunas",
+    "founded": null,
+    "city": "",
+    "arena": {
+      "name": "",
+      "capacity": null
+    },
+    "description": "",
+    "images": {
+      "logo": "/images/teams/zalgiris-kaunas/logo/logo.png",
+      "stadium_interior": "/images/teams/zalgiris-kaunas/stadium_interior/interior.jpg",
+      "stadium_exterior": "/images/teams/zalgiris-kaunas/stadium_exterior/exterior.jpg"
+    }
+  }
+}
