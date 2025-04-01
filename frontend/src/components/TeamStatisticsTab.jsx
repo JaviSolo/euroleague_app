@@ -32,18 +32,33 @@ const COLUMN_LABELS = {
 const TeamStatisticsTab = ({ teamName, season }) => {
   const [stats, setStats] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  // 🛡️ Evita renderizar si aún no hay datos válidos
+  if (!teamName || !season) {
+    return (
+      <div className="flex justify-center py-10">
+        <p className="text-gray-400 italic">Waiting for team and season...</p>
+      </div>
+    );
+  }
 
   useEffect(() => {
     const fetchStats = async () => {
       setLoading(true);
+      setError(false);
+
       try {
-        const response = await fetch(`/api/team_stats?team=${teamName}&season=${season}`);
+        const response = await fetch(`/api/team_stats?team=${encodeURIComponent(teamName)}&season=${season}`);
+        if (!response.ok) throw new Error("Team not found");
         const data = await response.json();
         setStats(data);
       } catch (error) {
         console.error("Error fetching team stats:", error);
         setStats(null);
+        setError(true);
       }
+
       setLoading(false);
     };
 
@@ -51,12 +66,16 @@ const TeamStatisticsTab = ({ teamName, season }) => {
   }, [teamName, season]);
 
   if (loading) {
-    return <p className="text-gray-400 text-center">Loading stats...</p>;
+    return (
+      <div className="flex justify-center py-10">
+        <div className="animate-spin h-8 w-8 border-4 border-blue-500 border-t-transparent rounded-full"></div>
+      </div>
+    );
   }
 
-  if (!stats) {
+  if (error || !stats) {
     return (
-      <p className="text-red-400 text-center">
+      <p className="text-red-500 text-center italic py-4">
         No statistics available for this team and season.
       </p>
     );

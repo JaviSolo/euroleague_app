@@ -6,19 +6,36 @@ import TeamTabs from "./TeamTabs";
 const TeamPage = () => {
   const { teamName } = useParams();
   const [team, setTeam] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [showFullDesc, setShowFullDesc] = useState(false);
-  const [selectedSeason, setSelectedSeason] = useState("2024-2025"); // 👈 Por defecto, temporada actual
+  const [selectedSeason, setSelectedSeason] = useState("2024-2025"); // temporada por defecto
 
   useEffect(() => {
+    setLoading(true);
     fetch("/data/teams_metadata.json")
       .then((res) => res.json())
       .then((data) => {
         const matchedTeam = data[teamName.toLowerCase()];
         setTeam(matchedTeam || null);
+        setLoading(false);
       })
-      .catch((err) => console.error("Error loading team data:", err));
+      .catch((err) => {
+        console.error("Error loading team data:", err);
+        setTeam(null);
+        setLoading(false);
+      });
   }, [teamName]);
 
+  // 🌀 Mostrar loader mientras se carga
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen bg-gray-900 text-white">
+        <div className="animate-spin h-10 w-10 border-4 border-blue-500 border-t-transparent rounded-full"></div>
+      </div>
+    );
+  }
+
+  // ❌ Mostrar error si el equipo no existe
   if (!team) {
     return (
       <div className="min-h-screen bg-gray-900 text-white p-6 text-center">
@@ -30,6 +47,7 @@ const TeamPage = () => {
     );
   }
 
+  // ✅ Render principal
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
       <div className="max-w-5xl mx-auto space-y-6">
@@ -86,16 +104,16 @@ const TeamPage = () => {
           />
         </div>
 
-       {/* 🔽 Season Selector */}
+        {/* Season Selector */}
         <SeasonSelector
-        selectedSeason={selectedSeason}
-        onChange={(season) => setSelectedSeason(season)}
+          selectedSeason={selectedSeason}
+          onChange={(season) => setSelectedSeason(season)}
         />
 
-        {/* ✅ Tabs con stats, roster, boxscores */}
+        {/* Tabs: stats, roster, etc */}
         <TeamTabs
-        teamName={team.name}
-        selectedSeason={selectedSeason}
+          teamName={team.name}
+          selectedSeason={selectedSeason}
         />
       </div>
     </div>
